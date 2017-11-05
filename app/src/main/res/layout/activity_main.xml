@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deepakrattan.contentproviderdemo1.MainActivity">
+
+    <TextView
+        android:id="@+id/txtWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ddkd" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+
+        >
+
+        <Button
+            android:id="@+id/btnAllWords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/all_items" />
+
+        <Button
+            android:id="@+id/btnFirstWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_item" />
+    </LinearLayout>
+
+
+</RelativeLayout>

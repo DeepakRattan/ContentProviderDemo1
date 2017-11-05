@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ContentProviderDemo1</string>
+    <string name="all_items">List All Items</string>
+    <string name="first_item">List First Item</string>
+    <string-array name="words">
+        <item>Android</item>
+        <item>JAVA</item>
+        <item>PHP</item>
+        <item>.NET</item>
+        <item>Python</item>
+    </string-array>
+</resources>
